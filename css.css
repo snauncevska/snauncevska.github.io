@@ -1,0 +1,225 @@
+header {
+
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: #151C36;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+body {
+    font-family: "Felix Titling", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    color: goldenrod;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 14px;
+}
+.menu a:hover {
+    background-color: #485778;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+    border: solid goldenrod 2px;
+
+}
+h1{
+    background: linear-gradient(90deg, #151C36, goldenrod);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 50px;
+}
+.aboutMe{
+    margin-top: 20px;
+    background-color: #151C36;
+    width: 500px;
+    height: 500px;
+}
+
+.white-square {
+    background-color: white;
+    width: 700px;
+    height: 350px;
+    display: block;
+    margin-top: -215px;
+    margin-left: 310px;
+    box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.3);
+}
+h2{
+    margin: 10px;
+    padding-top: 30px;
+   color: goldenrod;
+    font-style: italic;
+}
+.hobbies-container {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.hobbies-title {
+    text-align: center;
+    margin: 10px;
+    padding: 20px 0;
+    color: #151C36;
+    font-weight: bold;
+    font-style: italic;
+    background-color: goldenrod;
+}
+.hobbies{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+}
+.h-pics{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    margin-left: 40px;
+}
+.skills-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.column h3 {
+    text-align: center;
+}
+
+.column ul ,.text-column ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.column li,.text-column li{
+    background: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.hobbies img {
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.hobbies img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.contact-container {
+    padding: 40px 20px;
+    background-color: #151C36;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-container h2 {
+    margin-bottom: 20px;
+    color: goldenrod;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: goldenrod;
+    text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #e5a00d;
+}
+.text-column {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+.info{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.info h4{
+    color: #fff8e6;
+}
+.info >p{
+    color: #485778;
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: solid #485778 1px;
+    width: 250px;
+}
+.white-square p{
+    padding: 20px;
+    font-family: "Times New Roman";
+    color: #151C36;
+    margin-top: -105px;
+    width: 500px;
+}
+.aboutMe img{
+    margin-top: -2px;
+    margin-left: 600px;
+}
